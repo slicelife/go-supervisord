@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/ochinchina/supervisord/logger"
+	"github.com/slicelife/go-supervisord/logger"
 )
 
 // Logtail tails the process log through http interface

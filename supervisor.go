@@ -8,14 +8,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ochinchina/supervisord/config"
-	"github.com/ochinchina/supervisord/events"
-	"github.com/ochinchina/supervisord/faults"
-	"github.com/ochinchina/supervisord/logger"
-	"github.com/ochinchina/supervisord/process"
-	"github.com/ochinchina/supervisord/signals"
-	"github.com/ochinchina/supervisord/types"
-	"github.com/ochinchina/supervisord/util"
+	"github.com/slicelife/go-supervisord/config"
+	"github.com/slicelife/go-supervisord/events"
+	"github.com/slicelife/go-supervisord/faults"
+	"github.com/slicelife/go-supervisord/logger"
+	"github.com/slicelife/go-supervisord/process"
+	"github.com/slicelife/go-supervisord/signals"
+	"github.com/slicelife/go-supervisord/types"
+	"github.com/slicelife/go-supervisord/util"
 
 	log "github.com/sirupsen/logrus"
 )

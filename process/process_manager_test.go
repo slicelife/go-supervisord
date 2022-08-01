@@ -1,8 +1,9 @@
 package process
 
 import (
-	"supervisord/config"
 	"testing"
+
+	"github.com/slicelife/go-supervisord/config"
 )
 
 var procs *Manager = NewManager()

@@ -1,4 +1,4 @@
-module github.com/ochinchina/supervisord
+module github.com/slicelife/go-supervisord
 
 go 1.18
 
@@ -11,15 +11,6 @@ require (
 	github.com/ochinchina/go-ini v1.0.1
 	github.com/ochinchina/go-reaper v0.0.0-20181016012355-6b11389e79fc
 	github.com/ochinchina/gorilla-xmlrpc v0.0.0-20171012055324-ecf2fe693a2c
-	github.com/ochinchina/supervisord/config v0.0.0-20220520055329-8fdf6b62a44f
-	github.com/ochinchina/supervisord/events v0.0.0-20220520055329-8fdf6b62a44f
-	github.com/ochinchina/supervisord/faults v0.0.0-20220520055329-8fdf6b62a44f
-	github.com/ochinchina/supervisord/logger v0.0.0-20220520055329-8fdf6b62a44f
-	github.com/ochinchina/supervisord/process v0.0.0-20220520055329-8fdf6b62a44f
-	github.com/ochinchina/supervisord/signals v0.0.0-20220520055329-8fdf6b62a44f
-	github.com/ochinchina/supervisord/types v0.0.0-20220520055329-8fdf6b62a44f
-	github.com/ochinchina/supervisord/util v0.0.0-20220520055329-8fdf6b62a44f
-	github.com/ochinchina/supervisord/xmlrpcclient v0.0.0-20220520055329-8fdf6b62a44f
 	github.com/prometheus/client_golang v1.12.2
 	github.com/sirupsen/logrus v1.9.0
 )
@@ -38,16 +29,4 @@ require (
 	github.com/rogpeppe/go-charset v0.0.0-20190617161244-0dc95cdf6f31 // indirect
 	golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
-)
-
-replace (
-	github.com/ochinchina/supervisord/config => ./config
-	github.com/ochinchina/supervisord/events => ./events
-	github.com/ochinchina/supervisord/faults => ./faults
-	github.com/ochinchina/supervisord/logger => ./logger
-	github.com/ochinchina/supervisord/process => ./process
-	github.com/ochinchina/supervisord/signals => ./signals
-	github.com/ochinchina/supervisord/types => ./types
-	github.com/ochinchina/supervisord/util => ./util
-	github.com/ochinchina/supervisord/xmlrpcclient => ./xmlrpcclient
 )

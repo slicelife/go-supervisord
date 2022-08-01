@@ -5,7 +5,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ochinchina/supervisord/config"
+	"github.com/slicelife/go-supervisord/config"
 	log "github.com/sirupsen/logrus"
 )
 
